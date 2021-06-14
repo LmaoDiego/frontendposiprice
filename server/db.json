@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "RTX",
+      "price": 500,
+      "description": "Nvidia 2021"
+    },
+    {
+      "id": 2,
+      "name": "Radeon",
+      "price": "1500",
+      "description": "AMD best graphic DRR6"
+    },
+    {
+      "id": 3,
+      "name": "ViperV2",
+      "price": "500",
+      "description": "DRR4"
+    }
+  ]
+}
