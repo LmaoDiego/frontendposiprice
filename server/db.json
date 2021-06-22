@@ -23,6 +23,12 @@
       "name": "case 123",
       "price": "300",
       "description": "123"
+    },
+    {
+      "id": 5,
+      "name": "RX",
+      "price": 5000,
+      "description": "Nx"
     }
   ]
 }
