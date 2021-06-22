@@ -50,7 +50,7 @@ export default {
     save() {
       OrdersApiService.create(this.item)
           .then(() => {
-            this.navigateToProducts();
+            this.navigateToOrders();
           })
           .catch(e => {
             console.log(e);

@@ -69,7 +69,7 @@ export default {
       this.navigateToOrders();
     },
     navigateToOrders() {
-      this.$router.push({name: 'products'});
+      this.$router.push({name: 'orders'});
     }
   },
   created() {
