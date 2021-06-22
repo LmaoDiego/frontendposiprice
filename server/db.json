@@ -29,6 +29,12 @@
       "name": "RX",
       "price": 5000,
       "description": "Nx"
+    },
+    {
+      "id": 6,
+      "name": "RXt",
+      "price": 88,
+      "description": "Nxa"
     }
   ]
 }
