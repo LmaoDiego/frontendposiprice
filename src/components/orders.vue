@@ -233,8 +233,6 @@ export default {
     navigateToEditOrder(id) {
       this.$router.push({name: 'edit-order', params: { id: id}});
     }
-
-
   },
   mounted() {
     this.retrieveOrders();
