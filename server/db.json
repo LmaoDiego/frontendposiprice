@@ -18,5 +18,21 @@
       "price": "500",
       "description": "DRR4"
     }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "date": "21 de abril",
+      "order_amount": 4000,
+      "delivery_date": "30 de julio"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "date": "27 de mayo",
+      "order_amount": 8000,
+      "delivery_date": "30 de julio"
+    }
   ]
 }

@@ -8,6 +8,7 @@
         <v-btn text to="/">Home</v-btn>
         <v-btn text to="/products">Products</v-btn>
         <v-btn text to="/about">About</v-btn>
+        <v-btn text to="/order">Order</v-btn>
       </v-toolbar-items>
     </v-app-bar>
     <v-main>
