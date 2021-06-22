@@ -17,6 +17,12 @@
       "name": "ViperV2",
       "price": "500",
       "description": "DRR4"
+    },
+    {
+      "id": 4,
+      "name": "case 123",
+      "price": "300",
+      "description": "123"
     }
   ]
 }
