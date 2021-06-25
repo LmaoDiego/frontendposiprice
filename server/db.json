@@ -1,4 +1,18 @@
 {
+  "users": [
+    {
+      "id": 1,
+      "name": "Juan"
+    },
+    {
+      "id": 2,
+      "name": "Cesar"
+    },
+    {
+      "id": 3,
+      "name": "Beto"
+    }
+  ],
   "products": [
     {
       "id": 1,
@@ -17,22 +31,35 @@
       "name": "ViperV2",
       "price": "500",
       "description": "DRR4"
+    },
+    {
+      "id": 4,
+      "name": "case 123",
+      "price": "300",
+      "description": "123"
     }
   ],
   "orders": [
     {
       "id": 1,
       "user_id": 1,
-      "date": "21 de abril",
-      "order_amount": 4000,
-      "delivery_date": "30 de julio"
+      "order_amount": "3000",
+      "purchase_date": "25 de Julio",
+      "delivery_date": "15 de Agosto"
     },
     {
       "id": 2,
       "user_id": 2,
-      "date": "27 de mayo",
-      "order_amount": 8000,
-      "delivery_date": "30 de julio"
+      "order_amount": "500",
+      "purchase_date": "29 de Julio",
+      "delivery_date": "15 de Agosto"
+    },
+    {
+      "id": 3,
+      "user_id": "1",
+      "order_amount": "5000",
+      "purchase_date": "25 de Julio",
+      "delivery_date": "15 de Agosto"
     }
   ]
 }
