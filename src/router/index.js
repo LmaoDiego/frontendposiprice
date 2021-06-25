@@ -1,17 +1,14 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/home.vue'
-import Order from '../components/orders'
-import addOrder from '../components/add-order'
-import editOrder from '../components/edit-order'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/',
+    path: '/home',
     name: 'Home',
-    component: Home
+    component: () => import('../views/home.vue')
+
   },
   {
     path: '/about',
@@ -21,17 +18,17 @@ const routes = [
   {
     path: '/orders',
     name: 'orders',
-    component: Order
+    component: () => import('../components/orders/orders')
   },
   {
     path: '/orders/new',
     name: 'add-order',
-    component: addOrder
+    component: () => import('../components/orders/add-order')
   },
   {
     path: '/order/:id',
     name: 'edit-order',
-    component: editOrder
+    component: () => import('../components/orders/edit-order')
   },
   {
     path: '/products',
