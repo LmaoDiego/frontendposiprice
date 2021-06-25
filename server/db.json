@@ -42,23 +42,44 @@
   "orders": [
     {
       "id": 1,
-      "user_id": 1,
-      "order_amount": "3000",
+      "userId": 1,
+      "amount": "3000",
       "purchase_date": "25 de Julio",
       "delivery_date": "15 de Agosto"
     },
     {
       "id": 2,
-      "user_id": 2,
-      "order_amount": "500",
+      "userId": 2,
+      "amount": "500",
       "purchase_date": "29 de Julio",
       "delivery_date": "15 de Agosto"
     },
     {
       "id": 3,
-      "user_id": "1",
-      "order_amount": "5000",
+      "userId": 1,
+      "amount": "5000",
       "purchase_date": "25 de Julio",
+      "delivery_date": "15 de Agosto"
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "amount": "6000",
+      "purchase_date": "22 de Julio",
+      "delivery_date": "15 de Agosto"
+    },
+    {
+      "id": 5,
+      "userId": "2",
+      "amount": "1000",
+      "purchase_date": "1 de Julio",
+      "delivery_date": "15 de Agosto"
+    },
+    {
+      "id": 6,
+      "userId": "1",
+      "amount": "5500",
+      "purchase_date": "3 de Julio",
       "delivery_date": "15 de Agosto"
     }
   ]

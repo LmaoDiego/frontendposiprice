@@ -7,13 +7,13 @@
       <v-container>
         <v-row>
           <v-col cols="12" sm="6" md="4">
-            <v-text-field v-model="item.user_id" label="User Id"></v-text-field>
+            <v-text-field v-model="item.userId" label="User Id"></v-text-field>
+          </v-col>
+          <v-col cols="12" sm="6" md="4">
+            <v-text-field v-model="item.amount" label="Amount"></v-text-field>
           </v-col>
           <v-col cols="12" sm="6" md="4">
             <v-text-field v-model="item.purchase_date" label="Purchase Date"></v-text-field>
-          </v-col>
-          <v-col cols="12" sm="6" md="4">
-            <v-text-field v-model="item.order_amount" label="Order Amount"></v-text-field>
           </v-col>
           <v-col cols="12" sm="6" md="4">
             <v-text-field v-model="item.delivery_date" label="Delivery Date"></v-text-field>
@@ -38,8 +38,8 @@ export default {
     return {
       item: {
         id: 0,
-        user_id: 0,
-        order_amount: '',
+        userId: 0,
+        amount: '',
         purchase_date:'',
         delivery_date: ''
       }

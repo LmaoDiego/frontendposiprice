@@ -14,7 +14,7 @@
     <v-card-text>
       <v-data-table :headers="headers"
                     :items="displayOrders"
-                    :items-per-page="5"
+                    :items-per-page="15"
                     :search="search"
                     class="elevation-1" ref="ordersTable">
         <template v-slot:[`item.actions`]="{ item }">
@@ -35,10 +35,10 @@
                       <v-text-field v-model="editedItem.id" label="Id"></v-text-field>
                     </v-col>
                     <v-col cols="12" sm="6" md="4">
-                      <v-text-field v-model="editedItem.user_id" label="User Id"></v-text-field>
+                      <v-text-field v-model="editedItem.userId" label="User Id"></v-text-field>
                     </v-col>
                     <v-col cols="12" sm="6" md="4">
-                      <v-text-field v-model="editedItem.order_amount" label="Order Amount"></v-text-field>
+                      <v-text-field v-model="editedItem.amount" label="Amount"></v-text-field>
                     </v-col>
                     <v-col cols="12" sm="6" md="4">
                       <v-text-field v-model="editedItem.purchase_date" label="Purchase Date"></v-text-field>
@@ -131,8 +131,8 @@ export default {
       dialogDelete: false,
       headers: [
         {text: 'Id', value: 'id'},
-        {text: 'User Id', value: 'user_id'},
-        {text: 'Order Amount', value: 'order_amount'},
+        {text: 'User Id', value: 'userId'},
+        {text: 'Amount', value: 'amount'},
         {text: 'Purchase Date', value: 'purchase_date'},
         {text: 'Delivery Date', value: 'delivery_date'},
       ],
@@ -141,15 +141,15 @@ export default {
       editedIndex: -1,
       editedItem: {
         id: 0,
-        user_id: 0,
-        order_amount: '',
+        userId: 0,
+        amount: '',
         purchase_date: '',
         delivery_date: ''
       },
       defaultItem: {
         id: 0,
-        user_id: 0,
-        order_amount: '',
+        userId: 0,
+        amount: '',
         purchase_date: '',
         delivery_date: ''
       },
@@ -184,8 +184,8 @@ export default {
     getDisplayOrder(order) {
       return {
         id: order.id,
-        user_id:order.user_id,
-        order_amount:order.order_amount,
+        userId:order.userId,
+        amount:order.amount,
         purchase_date:order.purchase_date,
         delivery_date:order.delivery_date
       };
@@ -276,14 +276,14 @@ export default {
             console.log(e);
           });
     },
+
     navigateToAddOrder() {
       this.$router.push({name: 'add-order'});
     },
+
     navigateToEditOrder(id) {
       this.$router.push({name: 'edit-order', params: { id: id}});
     }
-
-
   },
   mounted() {
     this.retrieveOrders();
