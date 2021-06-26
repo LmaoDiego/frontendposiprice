@@ -19,6 +19,7 @@ const routes = [
     path: '/orders',
     name: 'orders',
     component: () => import('../components/orders/orders')
+    //<!--  Forzar push-->
   },
   {
     path: '/orders/new',
