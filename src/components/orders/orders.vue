@@ -2,6 +2,7 @@
   <v-card>
     <v-card-title>
       Orders
+      <!--  Forzar push-->
       <v-spacer></v-spacer>
       <v-text-field
           v-model="search"
@@ -289,9 +290,7 @@ export default {
     this.retrieveOrders();
   }
 }
-
 </script>
-
 <style scoped>
 
 </style>

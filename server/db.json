@@ -81,6 +81,13 @@
       "amount": "5500",
       "purchase_date": "3 de Julio",
       "delivery_date": "15 de Agosto"
+    },
+    {
+      "id": 7,
+      "userId": "2",
+      "amount": "9000",
+      "purchase_date": "27 de julio",
+      "delivery_date": "15 de agosto"
     }
   ]
 }

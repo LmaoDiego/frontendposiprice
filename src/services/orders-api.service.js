@@ -1,5 +1,4 @@
 import http from './http.common';
-
 class OrdersApiService {
     getAll() {
         return http.get('/orders');
