@@ -7,6 +7,8 @@
       <v-toolbar-items>
         <v-btn text to="/home">Home</v-btn>
         <v-btn text to="/products">Products</v-btn>
+        <v-btn text to="/orders">Orders</v-btn>
+        <!--  Forzar push-->
         <v-btn text to="/about">About</v-btn>
       </v-toolbar-items>
     </v-app-bar>

@@ -1,4 +1,18 @@
 {
+  "users": [
+    {
+      "id": 1,
+      "name": "Juan"
+    },
+    {
+      "id": 2,
+      "name": "Cesar"
+    },
+    {
+      "id": 3,
+      "name": "Beto"
+    }
+  ],
   "products": [
     {
       "id": 1,
@@ -23,6 +37,57 @@
       "name": "case 123",
       "price": "300",
       "description": "123"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 1,
+      "amount": "3000",
+      "purchase_date": "25 de Julio",
+      "delivery_date": "15 de Agosto"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "amount": "500",
+      "purchase_date": "29 de Julio",
+      "delivery_date": "15 de Agosto"
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "amount": "5000",
+      "purchase_date": "25 de Julio",
+      "delivery_date": "15 de Agosto"
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "amount": "6000",
+      "purchase_date": "22 de Julio",
+      "delivery_date": "15 de Agosto"
+    },
+    {
+      "id": 5,
+      "userId": "2",
+      "amount": "1000",
+      "purchase_date": "1 de Julio",
+      "delivery_date": "15 de Agosto"
+    },
+    {
+      "id": 6,
+      "userId": "1",
+      "amount": "5500",
+      "purchase_date": "3 de Julio",
+      "delivery_date": "15 de Agosto"
+    },
+    {
+      "id": 7,
+      "userId": "2",
+      "amount": "9000",
+      "purchase_date": "27 de julio",
+      "delivery_date": "15 de agosto"
     }
   ]
 }
