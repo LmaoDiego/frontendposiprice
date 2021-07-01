@@ -45,7 +45,12 @@ const routes = [
     path: '/product/:id',
     name: 'edit-product',
     component: () => import('../components/edit-product')
-  }
+  },
+// /
+  { path: '/login',     name: 'login',    component: () => import('../views/login'), meta: {title: 'Login'}},
+  { path: '/register',  name: 'register', component: () => import('../views/register'), meta: {title: 'Register'}},
+  { path: '/profile',   name: 'profile',  component: () => import('../views/profile'), meta: {title: 'Profile'}},
+  { path: '/users',     name: 'users',    component: () => import('../views/users-list'), meta: {title: 'Users List'}}
 ]
 
 const router = new VueRouter({
