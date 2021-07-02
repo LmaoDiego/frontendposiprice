@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-
+import index from '../views/index'
 Vue.use(VueRouter)
 
 const routes = [
@@ -10,6 +10,14 @@ const routes = [
     component: () => import('../views/home.vue')
 
   },
+    //
+  {
+    path: '/profile',
+    name: 'Profile',
+    component: () => import('../components/profile/profile')
+
+  },
+    //
   {
     path: '/about',
     name: 'About',
@@ -34,23 +42,26 @@ const routes = [
   {
     path: '/products',
     name: 'products',
-    component: () => import('../components/products')
+    component: () => import('../components/products/products')
   },
   {
     path: '/products/new',
     name: 'add-product',
-    component: () => import('../components/add-product')
+    component: () => import('../components/products/add-product')
   },
   {
     path: '/product/:id',
     name: 'edit-product',
-    component: () => import('../components/edit-product')
+    component: () => import('../components/products/edit-product')
   },
 // /
-  { path: '/login',     name: 'login',    component: () => import('../views/login'), meta: {title: 'Login'}},
-  { path: '/register',  name: 'register', component: () => import('../views/register'), meta: {title: 'Register'}},
-  { path: '/profile',   name: 'profile',  component: () => import('../views/profile'), meta: {title: 'Profile'}},
-  { path: '/users',     name: 'users',    component: () => import('../views/users-list'), meta: {title: 'Users List'}}
+  {
+    path: '/',
+    name: 'index',
+    component: index
+  },
+    //
+
 ]
 
 const router = new VueRouter({

@@ -10,6 +10,7 @@
         <v-btn text to="/orders">Orders</v-btn>
         <!--  Forzar push-->
         <v-btn text to="/about">About</v-btn>
+        <v-btn text to="/profile">Profile</v-btn>
       </v-toolbar-items>
     </v-app-bar>
     <v-main>

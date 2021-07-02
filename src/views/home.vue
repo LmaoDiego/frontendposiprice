@@ -22,7 +22,7 @@
         >
           <template slot="progress">
             <v-progress-linear
-                color="deep-purple"
+                color="deep-blue"
                 height="10"
                 indeterminate
             ></v-progress-linear>
@@ -63,11 +63,11 @@
 
           <v-divider class="mx-4"></v-divider>
 
-          <v-card-title>!recien llegado!</v-card-title>
+          <v-card-title>!Recien Llegado!</v-card-title>
 
           <v-card-actions>
             <v-btn
-                color="deep-purple lighten-2"
+                color="deep-blue lighten-2"
                 text
                 @click="reserve"
             >

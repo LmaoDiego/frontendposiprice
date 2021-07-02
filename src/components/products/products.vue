@@ -46,6 +46,12 @@
                     <v-col cols="12" sm="6" md="4">
                       <v-text-field v-model="editedItem.description" label="Description"></v-text-field>
                     </v-col>
+                    <v-col cols="12" sm="6" md="4">
+                      <v-img
+
+                          src="https://picsum.photos/id/11/500/300"
+                      ></v-img>
+                    </v-col>
                   </v-row>
                 </v-container>
               </v-card-text>
@@ -121,7 +127,7 @@
 </template>
 
 <script>
-import ProductApiService from '../services/products-api.service';
+import ProductApiService from '../../services/products-api.service';
 export default {
   name: "products",
   data() {
@@ -134,6 +140,7 @@ export default {
         {text: 'Name', value: 'name'},
         {text: 'Price', value: 'price'},
         {text: 'Description', value: 'description'},
+        {text: 'Image', value: 'url'},
       ],
       products: [],
       displayProducts: [],
@@ -142,13 +149,15 @@ export default {
         id: 0,
         name: '',
         price: 0,
-        description: ''
+        description: '',
+        url:''
       },
       defaultItem: {
         id: 0,
         name: '',
         price: 0,
-        description: ''
+        description: '',
+        url:''
       },
     }
   },
@@ -183,7 +192,8 @@ export default {
         id: product.id,
         name: product.name,
         price: product.price,
-        description: product.description
+        description: product.description,
+        url:product.url
       };
     },
 
