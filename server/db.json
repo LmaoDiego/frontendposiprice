@@ -13,109 +13,127 @@
       "name": "Beto"
     }
   ],
-  "products": [{
-    "id": 1,
-    "name": "GeForce RTX 3090",
-    "price": 1200,
-    "description": "New Graphics Card",
-    "url": "https://www.profesionalreview.com/wp-content/uploads/2020/10/Nvidia-RTX-3090-Review10.jpg"
-  }, {
-    "id": 2,
-    "name": "GeForce RTX 3080",
-    "price": 1100,
-    "description": "New Graphics Card",
-    "url": "https://www.notebookcheck.org/fileadmin/Notebooks/NVIDIA/geforce_rtx_3080_fe.png"
-  }, {
-    "id": 3,
-    "name": "GeForce RTX 3070",
-    "price": 1000,
-    "description": "New Graphics Card",
-    "url": "https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/ampere/rtx-3070/geforce-rtx-3070-shop-630-d@2x.png"
-  }, {
-    "id": 4,
-    "name": "GeForce RTX 3060",
-    "price": 900,
-    "description": "New Graphics Card",
-    "url": "https://i.blogs.es/15bae1/unnamed-2-/450_1000.jpeg"
-  }, {
-    "id": 5,
-    "name": "GeForce RTX 3050",
-    "price": 800,
-    "description": "New Graphics Card",
-    "url": "https://www.muycomputer.com/wp-content/uploads/2020/12/NVIDIA-GeForce-1.jpg"
-  }, {
-    "id": 6,
-    "name": "GeForce RTX 3090 Ti",
-    "price": 700,
-    "description": "New Graphics Card",
-    "url": "https://www.profesionalreview.com/wp-content/uploads/2020/10/Nvidia-RTX-3090-Review10.jpg"
-  }, {
-    "id": 7,
-    "name": "GeForce RTX 3080 Ti",
-    "price": 600,
-    "description": "New Graphics Card",
-    "url": "https://www.notebookcheck.org/fileadmin/Notebooks/NVIDIA/geforce_rtx_3080_fe.png"
-  }, {
-    "id": 8,
-    "name": "GeForce RTX 3070 Ti",
-    "price": 500,
-    "description": "New Graphics Card",
-    "url": "https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/ampere/rtx-3070/geforce-rtx-3070-shop-630-d@2x.png"
-  }, {
-    "id": 9,
-    "name": "GeForce RTX 3060 TI",
-    "price": 400,
-    "description": "New Graphics Card",
-    "url": "https://i.blogs.es/15bae1/unnamed-2-/450_1000.jpeg"
-  }, {
-    "id": 10,
-    "name": "GeForce RTX 3050 Ti",
-    "price": 300,
-    "description": "New Graphics Card",
-    "url": "https://www.muycomputer.com/wp-content/uploads/2020/12/NVIDIA-GeForce-1.jpg"
-  }, {
-    "id": 11,
-    "name": "AMD Ryzen 7 5700",
-    "price": 200,
-    "description": "Newest AMD Ryzen",
-    "url": "https://www.muycomputer.com/wp-content/uploads/2021/04/Ryzen-7-5700G_2.jpg"
-  }, {
-    "id": 12,
-    "name": "AMD Ryzen 5 5600",
-    "price": 800,
-    "description": "Newest AMD Ryzen",
-    "url": "https://m.media-amazon.com/images/I/61YyzKD24dL._AC_SS450_.jpg"
-  }, {
-    "id": 13,
-    "name": "AMD Ryzen 9 5900",
-    "price": 700,
-    "description": "Newest AMD Ryzen",
-    "url": "https://www.amd.com/system/files/2019-11/238593-ryzen-9-pib-left-facing-1260x709_0.png"
-  }, {
-    "id": 14,
-    "name": "AMD Ryzen 7 5800",
-    "price": 600,
-    "description": "Newest AMD Ryzen",
-    "url": "https://i.ebayimg.com/images/g/5JUAAOSw8QRekZpt/s-l1600.jpg"
-  }, {
-    "id": 15,
-    "name": "AMD Ryzen 5 5600X",
-    "price": 500,
-    "description": "Newest AMD Ryzen",
-    "url": "https://m.media-amazon.com/images/I/61YyzKD24dL._AC_SS450_.jpg"
-  }, {
-    "id": 16,
-    "name": "AMD Ryzen 9 3950",
-    "price": 400,
-    "description": "Newest AMD Ryzen",
-    "url": "https://www.amd.com/system/files/2019-11/238593-ryzen-9-pib-left-facing-1260x709_0.png"
-  }, {
-    "id": 17,
-    "name": "AMD Ryzen 7 3800",
-    "price": 600,
-    "description": "Newest AMD Ryzen",
-    "url": "https://i.ebayimg.com/images/g/5JUAAOSw8QRekZpt/s-l1600.jpg"
-  }],
+  "products": [
+    {
+      "id": 1,
+      "name": "GeForce RTX 3090",
+      "price": 1200,
+      "description": "New Graphics Card",
+      "url": "https://www.profesionalreview.com/wp-content/uploads/2020/10/Nvidia-RTX-3090-Review10.jpg"
+    },
+    {
+      "id": 2,
+      "name": "GeForce RTX 3080",
+      "price": 1100,
+      "description": "New Graphics Card",
+      "url": "https://www.notebookcheck.org/fileadmin/Notebooks/NVIDIA/geforce_rtx_3080_fe.png"
+    },
+    {
+      "id": 3,
+      "name": "GeForce RTX 3070",
+      "price": 1000,
+      "description": "New Graphics Card",
+      "url": "https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/ampere/rtx-3070/geforce-rtx-3070-shop-630-d@2x.png"
+    },
+    {
+      "id": 4,
+      "name": "GeForce RTX 3060",
+      "price": 900,
+      "description": "New Graphics Card",
+      "url": "https://i.blogs.es/15bae1/unnamed-2-/450_1000.jpeg"
+    },
+    {
+      "id": 5,
+      "name": "GeForce RTX 3050",
+      "price": 800,
+      "description": "New Graphics Card",
+      "url": "https://www.muycomputer.com/wp-content/uploads/2020/12/NVIDIA-GeForce-1.jpg"
+    },
+    {
+      "id": 6,
+      "name": "GeForce RTX 3090 Ti",
+      "price": 700,
+      "description": "New Graphics Card",
+      "url": "https://www.profesionalreview.com/wp-content/uploads/2020/10/Nvidia-RTX-3090-Review10.jpg"
+    },
+    {
+      "id": 7,
+      "name": "GeForce RTX 3080 Ti",
+      "price": 600,
+      "description": "New Graphics Card",
+      "url": "https://www.notebookcheck.org/fileadmin/Notebooks/NVIDIA/geforce_rtx_3080_fe.png"
+    },
+    {
+      "id": 8,
+      "name": "GeForce RTX 3070 Ti",
+      "price": 500,
+      "description": "New Graphics Card",
+      "url": "https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/ampere/rtx-3070/geforce-rtx-3070-shop-630-d@2x.png"
+    },
+    {
+      "id": 9,
+      "name": "GeForce RTX 3060 TI",
+      "price": 400,
+      "description": "New Graphics Card",
+      "url": "https://i.blogs.es/15bae1/unnamed-2-/450_1000.jpeg"
+    },
+    {
+      "id": 10,
+      "name": "GeForce RTX 3050 Ti",
+      "price": 300,
+      "description": "New Graphics Card",
+      "url": "https://www.muycomputer.com/wp-content/uploads/2020/12/NVIDIA-GeForce-1.jpg"
+    },
+    {
+      "id": 11,
+      "name": "AMD Ryzen 7 5700",
+      "price": 200,
+      "description": "Newest AMD Ryzen",
+      "url": "https://www.muycomputer.com/wp-content/uploads/2021/04/Ryzen-7-5700G_2.jpg"
+    },
+    {
+      "id": 12,
+      "name": "AMD Ryzen 5 5600",
+      "price": 800,
+      "description": "Newest AMD Ryzen",
+      "url": "https://m.media-amazon.com/images/I/61YyzKD24dL._AC_SS450_.jpg"
+    },
+    {
+      "id": 13,
+      "name": "AMD Ryzen 9 5900",
+      "price": 700,
+      "description": "Newest AMD Ryzen",
+      "url": "https://www.amd.com/system/files/2019-11/238593-ryzen-9-pib-left-facing-1260x709_0.png"
+    },
+    {
+      "id": 14,
+      "name": "AMD Ryzen 7 5800",
+      "price": 600,
+      "description": "Newest AMD Ryzen",
+      "url": "https://i.ebayimg.com/images/g/5JUAAOSw8QRekZpt/s-l1600.jpg"
+    },
+    {
+      "id": 15,
+      "name": "AMD Ryzen 5 5600X",
+      "price": 500,
+      "description": "Newest AMD Ryzen",
+      "url": "https://m.media-amazon.com/images/I/61YyzKD24dL._AC_SS450_.jpg"
+    },
+    {
+      "id": 16,
+      "name": "AMD Ryzen 9 3950",
+      "price": 400,
+      "description": "Newest AMD Ryzen",
+      "url": "https://www.amd.com/system/files/2019-11/238593-ryzen-9-pib-left-facing-1260x709_0.png"
+    },
+    {
+      "id": 17,
+      "name": "AMD Ryzen 7 3800",
+      "price": 600,
+      "description": "Newest AMD Ryzen",
+      "url": "https://i.ebayimg.com/images/g/5JUAAOSw8QRekZpt/s-l1600.jpg"
+    }
+  ],
   "orders": [
     {
       "id": 1,
@@ -270,6 +288,50 @@
       "amount": "9000",
       "purchase_date": "2 de agosto",
       "delivery_date": "25 de agosto"
+    }
+  ],
+  "suppliers": [
+    {
+      "id": 1,
+      "name": "Nvidia Corportation",
+      "email": "nvidiagraphics@gmail.com",
+      "number": 914823581
+    },
+    {
+      "id": 2,
+      "name": "Advanced Micro Devices INC",
+      "email": "amd@hotmail.com",
+      "number": 961948439
+    },
+    {
+      "id": 3,
+      "name": "Apple INC",
+      "email": "apple@gmail.com",
+      "number": 987765543
+    },
+    {
+      "id": 4,
+      "name": "Redragon Corp.",
+      "email": "redragonperiferics@gmail.com",
+      "number": 923344523
+    },
+    {
+      "id": 5,
+      "name": "Microsoft Corporation",
+      "email": "stevejobs@hotmail.com",
+      "number": 999888777
+    },
+    {
+      "id": 6,
+      "name": "Samsung Electronics",
+      "email": "samsung@hotmail.com",
+      "number": 293939112
+    },
+    {
+      "id": 7,
+      "name": "Logitech",
+      "email": "logitechperiferics@gmail.com",
+      "number": 9239847212
     }
   ]
 }

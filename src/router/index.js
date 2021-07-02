@@ -4,6 +4,7 @@ import index from '../views/index'
 Vue.use(VueRouter)
 
 const routes = [
+
   {
     path: '/home',
     name: 'Home',
@@ -53,6 +54,22 @@ const routes = [
     path: '/product/:id',
     name: 'edit-product',
     component: () => import('../components/products/edit-product')
+  },
+    //
+  {
+    path: '/suppliers',
+    name: 'suppliers',
+    component: () => import('../components/Suppliers/supplier')
+  },
+  {
+    path: 'suppliers/new',
+    name: 'add-supplier',
+    component: () => import('../components/Suppliers/add-supplier')
+  },
+  {
+    path: 'suppliers/:id',
+    name: 'edit-supplier',
+    component: () => import('../components/Suppliers/edit-supplier')
   },
 // /
   {
