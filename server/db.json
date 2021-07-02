@@ -333,5 +333,32 @@
       "email": "logitechperiferics@gmail.com",
       "number": 9239847212
     }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Tarjetas Graficas",
+      "description": "Componente para el buen funcionamiento de aplicaciones y juegos"
+    },
+    {
+      "id": 2,
+      "name": "Monitores",
+      "description": "Monitores de ultima generacion"
+    },
+    {
+      "id": 3,
+      "name": "CPU",
+      "description": "CPU's ya completas"
+    },
+    {
+      "id": 4,
+      "name": "Smarthphones",
+      "description": "Celulares de la ultima generacion"
+    },
+    {
+      "id": 5,
+      "name": "Perifericos",
+      "description": "Teclados, mouses y más!"
+    }
   ]
 }

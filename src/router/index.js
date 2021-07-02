@@ -73,6 +73,17 @@ const routes = [
   },
 // /
   {
+    path: '/categories',
+    name: 'categories',
+    component: () => import('../components/Categories/category')
+  },
+  {
+    path: 'categories/new',
+    name: 'add-category',
+    component: () => import('../components/Categories/add-category')
+  },
+    // /
+  {
     path: '/',
     name: 'index',
     component: index
